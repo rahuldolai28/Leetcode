@@ -3,13 +3,11 @@ class Solution {
         int ans[] = new int[2];
 
         int l = 0, r = numbers.length - 1;
-        while (l <= r) {
+        while (l < r) {
             int sum = numbers[l] + numbers[r];
             if (sum == target) {
-                l++;
-                r++;
-                ans[0] = l;
-                ans[1] = r;
+                ans[0] = l+1;
+                ans[1] = r+1;
                 return ans;
             }
             if (sum > target) {
