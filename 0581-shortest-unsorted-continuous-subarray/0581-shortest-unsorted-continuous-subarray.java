@@ -1,25 +1,20 @@
-import java.util.*;
-
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
-        int sorted[] = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            sorted[i] = nums[i];
-        }
-        Arrays.sort(sorted);
-        int l = 0, r = nums.length - 1;
+        int n = nums.length;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        int end = -1;
+        int start = 0;
 
-        while (l < r && nums[l] == sorted[l]) {
-            l++;
+        for(int i = 0; i < n; i++){
+            max = Math.max(max, nums[i]);
+            if(nums[i] < max ) end = i;
         }
-        while (l < r && nums[r] == sorted[r]) {
-            r--;
+        for( int  i = n-1; i>=0; i--){
+            min = Math.min(min, nums[i]);
+            if( nums[i] > min ) start = i;
         }
-        if (l == r) {
-            return 0;
-        } else {
-            return (r - l + 1);
-        }
+        return end-start +1 > 0 ? end-start+1 : 0;  
 
     }
 }
