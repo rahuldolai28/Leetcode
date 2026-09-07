@@ -22,11 +22,7 @@ public class Solution {
             fast = fast.next.next;
         } while ( fast!= null && fast.next != null && slow != fast);
 
-        if( slow == fast ){
-            return true;
-        }else{
-            return false;
-        }
+       return slow == fast ;
 
     }
 }
