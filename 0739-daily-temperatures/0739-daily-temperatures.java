@@ -1,7 +1,7 @@
 import java.util.*;
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
-        Stack<Integer> s= new Stack<>();
+        Deque<Integer> s = new ArrayDeque<>();
         int[] ans = new int[temperatures.length];
 
         Arrays.fill(ans, 0);
