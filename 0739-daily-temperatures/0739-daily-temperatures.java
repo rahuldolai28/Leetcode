@@ -4,7 +4,7 @@ class Solution {
         Deque<Integer> s = new ArrayDeque<>();
         int[] ans = new int[temperatures.length];
 
-        Arrays.fill(ans, 0);
+      
 
         for(int i = 0; i<temperatures.length; i++ ){
             int curr = temperatures[i];
