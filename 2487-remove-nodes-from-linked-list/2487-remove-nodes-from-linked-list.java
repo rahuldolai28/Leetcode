@@ -32,7 +32,7 @@ class Solution {
                 temp = temp.next;
             }          
         }
-        temp = reverse(start);
-        return temp;
+    
+        return reverse(start);
     }
 }
