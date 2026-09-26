@@ -154,4 +154,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0143-reorder-list](https://github.com/rahuldolai28/Leetcode/tree/master/0143-reorder-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/rahuldolai28/Leetcode/tree/master/2487-remove-nodes-from-linked-list) |
+## Tree
+|  |
+| ------- |
+| [0951-flip-equivalent-binary-trees](https://github.com/rahuldolai28/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
+## Depth-First Search
+|  |
+| ------- |
+| [0951-flip-equivalent-binary-trees](https://github.com/rahuldolai28/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
+## Binary Tree
+|  |
+| ------- |
+| [0951-flip-equivalent-binary-trees](https://github.com/rahuldolai28/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 <!---LeetCode Topics End-->
