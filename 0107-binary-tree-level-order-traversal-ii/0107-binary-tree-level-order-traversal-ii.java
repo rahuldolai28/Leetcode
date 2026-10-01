@@ -15,21 +15,20 @@
  */
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        List<List<Integer>> ans =  new ArrayList<>();
-        ans =  solve(root,ans,0);
+        List<List<Integer>> ans = new ArrayList<>();
+        solve(root, ans, 0);
         Collections.reverse(ans);
         return ans;
     }
 
-    public static List<List<Integer>> solve(TreeNode root, List<List<Integer>> ans, int level) {
+    public static void solve(TreeNode root, List<List<Integer>> ans, int level) {
         if (root == null)
-            return ans;
+            return;
         if (ans.size() <= level)
             ans.add(new ArrayList<>());
-
-        ans = solve(root.left, ans, level + 1);
-        ans = solve(root.right, ans, level + 1);
         ans.get(level).add(root.val);
-        return ans;
+        solve(root.left, ans, level + 1);
+        solve(root.right, ans, level + 1);
+
     }
 }
