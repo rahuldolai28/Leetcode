@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    public static boolean check(TreeNode a, TreeNode b){
+    public  boolean check(TreeNode a, TreeNode b){
         if(a==null && b==null) return true;
         if(a==null || b==null ) return false;
         if(a.val != b.val) return false;
