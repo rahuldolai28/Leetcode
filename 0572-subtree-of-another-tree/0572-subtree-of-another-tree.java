@@ -21,10 +21,8 @@ class Solution {
         return check(a.left,b.left) && check(a.right,b.right);
     }
     
-    public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-       
-        if(check(root,subRoot)) return true;
-         if(root == null || subRoot == null ) return false;
-        return isSubtree(root.left, subRoot) || isSubtree(root.right,subRoot);
+    public boolean isSubtree(TreeNode root, TreeNode subRoot) { 
+        if(root==null) return false;
+        return check(root,subRoot) || isSubtree(root.left, subRoot) || isSubtree(root.right,subRoot);
     }
 }
