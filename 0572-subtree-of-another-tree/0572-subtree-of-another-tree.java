@@ -23,6 +23,7 @@ class Solution {
     
     public boolean isSubtree(TreeNode root, TreeNode subRoot) { 
         if(root==null) return false;
-        return check(root,subRoot) || isSubtree(root.left, subRoot) || isSubtree(root.right,subRoot);
+        if(check(root,subRoot)) return true;
+        return isSubtree(root.left, subRoot) || isSubtree(root.right,subRoot);
     }
 }
