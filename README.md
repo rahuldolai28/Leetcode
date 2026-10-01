@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/rahuldolai28/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/rahuldolai28/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/rahuldolai28/Leetcode/tree/master/0143-reorder-list) |
 | [0496-next-greater-element-i](https://github.com/rahuldolai28/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/rahuldolai28/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -157,13 +158,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rahuldolai28/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/rahuldolai28/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rahuldolai28/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/rahuldolai28/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rahuldolai28/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/rahuldolai28/Leetcode/tree/master/0951-flip-equivalent-binary-trees) |
 <!---LeetCode Topics End-->
