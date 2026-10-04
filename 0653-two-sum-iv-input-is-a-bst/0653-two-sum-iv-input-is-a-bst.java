@@ -14,21 +14,27 @@
  * }
  */
 class Solution {
-    public static boolean find(TreeNode root, HashMap<Integer, Integer> hm, int k){
-        if(root == null ){
-            return false;
+    private static ArrayList<Integer> inorder(TreeNode root, ArrayList<Integer> list) {
+        if (root == null) {
+            return list;
         }
-        int c = k-root.val;
-        if(hm.containsKey(c)){
-            return true;
-        }
-        hm.put(root.val,0);
-        boolean left = find(root.left,hm,k);
-        boolean right = find(root.right,hm,k);
-        return left || right ;
+        list = inorder(root.left, list);
+        list.add(root.val);
+        list = inorder(root.right, list);
+        return list;
     }
+
     public boolean findTarget(TreeNode root, int k) {
-        HashMap<Integer, Integer> hm = new HashMap<>();
-        return find(root,hm,k);
+        ArrayList<Integer> list = new ArrayList<>();
+        list = inorder(root,list);
+        int si = 0;
+        int ei = list.size()-1;
+        while(ei>si){
+            int sum = list.get(si)+list.get(ei);
+            if(sum == k) return true;
+            else if(sum < k) si++;
+            else ei--;
+        }
+        return false;
     }
 }
