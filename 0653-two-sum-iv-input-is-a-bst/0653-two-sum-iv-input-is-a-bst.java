@@ -14,26 +14,29 @@
  * }
  */
 class Solution {
-    private static ArrayList<Integer> inorder(TreeNode root, ArrayList<Integer> list) {
+    private static void inorder(TreeNode root, ArrayList<Integer> list) {
         if (root == null) {
-            return list;
+            return;
         }
-        list = inorder(root.left, list);
+        inorder(root.left, list);
         list.add(root.val);
-        list = inorder(root.right, list);
-        return list;
+        inorder(root.right, list);
+
     }
 
     public boolean findTarget(TreeNode root, int k) {
         ArrayList<Integer> list = new ArrayList<>();
-        list = inorder(root,list);
+        inorder(root, list);
         int si = 0;
-        int ei = list.size()-1;
-        while(ei>si){
-            int sum = list.get(si)+list.get(ei);
-            if(sum == k) return true;
-            else if(sum < k) si++;
-            else ei--;
+        int ei = list.size() - 1;
+        while (ei > si) {
+            int sum = list.get(si) + list.get(ei);
+            if (sum == k)
+                return true;
+            else if (sum < k)
+                si++;
+            else
+                ei--;
         }
         return false;
     }
