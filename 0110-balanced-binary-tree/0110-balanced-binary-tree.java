@@ -16,24 +16,20 @@
 class Solution {
     boolean ans;
 
-    public int checkBalanced(TreeNode root, int depth){
-        if(root == null ) return depth;
-        int left = checkBalanced(root.left,depth+1);
-        int right  = checkBalanced(root.right,depth+1);
-        int diff = Math.abs(right-left);
-        System.out.println(diff);
-        
-        if(diff > 1){
-            return -1;
-        }else{
-            return Math.max(left,right);
-        }
+    public int checkBalanced(TreeNode root){
+        if(root == null ) return 0;
+        int left = checkBalanced(root.left);
+        int right = checkBalanced(root.right);
+        if(left == -1 || right == -1) return -1;
+        int diff = Math.abs(left-right);
+        if(diff>1) return -1;
+        return Math.max(left,right) +1;
     }
 
     public boolean isBalanced(TreeNode root) {
         if (root == null) return true;
-        int diff = checkBalanced(root,1);
-        System.out.println(diff);
+        int diff = checkBalanced(root);
+       
         if(diff == -1){
             return false;
         }
