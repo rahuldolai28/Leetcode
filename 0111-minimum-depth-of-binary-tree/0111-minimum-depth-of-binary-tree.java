@@ -20,6 +20,7 @@ class Solution {
         if (root == null) {
             return;
         }
+        if(c>=min) return ;
         if (root.left == null && root.right == null) {
             min = Math.min(c, min);
             return;
