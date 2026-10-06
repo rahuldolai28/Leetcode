@@ -19,13 +19,13 @@ class Solution {
     public void helper(TreeNode root, int prev) {
         if (root == null)
             return;
-        int num = prev * 10 + root.val;
+         prev = prev * 10 + root.val;
         if (root.left == null && root.right == null) {
-            ans = ans + num;
+            ans = ans + prev;
             return;
         }
-        helper(root.left, num);
-        helper(root.right, num);
+        helper(root.left, prev);
+        helper(root.right, prev);
     }
 
     public int sumNumbers(TreeNode root) {
