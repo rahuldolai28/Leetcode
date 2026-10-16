@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rahuldolai28/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0152-maximum-product-subarray](https://github.com/rahuldolai28/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rahuldolai28/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rahuldolai28/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/rahuldolai28/Leetcode/tree/master/0283-move-zeroes) |
 | [0496-next-greater-element-i](https://github.com/rahuldolai28/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/rahuldolai28/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rahuldolai28/Leetcode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/rahuldolai28/Leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rahuldolai28/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/rahuldolai28/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0977-squares-of-a-sorted-array](https://github.com/rahuldolai28/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/rahuldolai28/Leetcode/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rahuldolai28/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/rahuldolai28/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Trie
 |  |
@@ -155,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/rahuldolai28/Leetcode/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/rahuldolai28/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/rahuldolai28/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/rahuldolai28/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rahuldolai28/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rahuldolai28/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -321,4 +325,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/rahuldolai28/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
