@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/rahuldolai28/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0058-length-of-last-word](https://github.com/rahuldolai28/Leetcode/tree/master/0058-length-of-last-word) |
 | [0844-backspace-string-compare](https://github.com/rahuldolai28/Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/rahuldolai28/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Simulation
