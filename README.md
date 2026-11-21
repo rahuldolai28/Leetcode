@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/rahuldolai28/Leetcode/tree/master/0066-plus-one) |
+| [0069-sqrtx](https://github.com/rahuldolai28/Leetcode/tree/master/0069-sqrtx) |
 ## Two Pointers
 |  |
 | ------- |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/rahuldolai28/Leetcode/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/rahuldolai28/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0713-subarray-product-less-than-k](https://github.com/rahuldolai28/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 ## Linked List
@@ -336,4 +338,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/rahuldolai28/Leetcode/tree/master/0169-majority-element) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/rahuldolai28/Leetcode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
