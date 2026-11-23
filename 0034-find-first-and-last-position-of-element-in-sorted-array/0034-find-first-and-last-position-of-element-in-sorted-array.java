@@ -3,10 +3,8 @@ class Solution {
         if (nums.length == 0) {
             return new int[] { -1, -1 };
         }
-        boolean findFirst = true;
-        int first = find(nums, target, findFirst);
-        findFirst = false;
-        int last = find(nums, target, findFirst);
+        int first = find(nums, target, true);
+        int last = find(nums, target, false);
 
         return new int[] { first, last };
     }
