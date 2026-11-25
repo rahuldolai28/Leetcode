@@ -1,7 +1,6 @@
 class Solution {
     public int findPeakElement(int[] nums) {
-        int idx = find(nums, 0, nums.length - 1);
-        return idx;
+        return find(nums, 0, nums.length - 1);
     }
 
     public int find(int[] nums, int low, int high) {
